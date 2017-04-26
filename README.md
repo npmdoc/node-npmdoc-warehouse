@@ -1,6 +1,6 @@
 # npmdoc-warehouse
 
-#### api documentation for  [warehouse (v2.2.0)](https://github.com/tommy351/warehouse#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-warehouse.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-warehouse) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-warehouse.svg)](https://travis-ci.org/npmdoc/node-npmdoc-warehouse)
+#### basic api documentation for  [warehouse (v2.2.0)](https://github.com/tommy351/warehouse#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-warehouse.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-warehouse) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-warehouse.svg)](https://travis-ci.org/npmdoc/node-npmdoc-warehouse)
 
 #### Simple JSON-based database
 
@@ -82,7 +82,8 @@
         "test": "mocha test/index.js",
         "test-cov": "istanbul cover --print both _mocha -- test/index.js"
     },
-    "version": "2.2.0"
+    "version": "2.2.0",
+    "bin": {}
 }
 ```
 
